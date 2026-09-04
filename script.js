@@ -5,7 +5,7 @@ function firstNonRepeatedChar(str) {
 		if(count[str[i]]){
 			count[str[i]]++
 		}else{
-			count[str[i]]==1
+			count[str[i]]=1
 		}
 	}
 	for(let i=0;i<str.length;i++){
